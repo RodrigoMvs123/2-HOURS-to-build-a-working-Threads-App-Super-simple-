@@ -1,0 +1,119 @@
+{
+    "users":[
+       {
+         "id": 1,
+         "user_uuid": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+         "username": "Code With Rodrigo Vieira",
+         "handle": "rodrigovieira",
+         "bio": "www.facebook.com/vieirarodrigo/posts/10158083592168253",
+         "link": "https://www.linkedin.com/in/rodrigo-m-v-soares-3124b818a/",
+         "img": "https://imgur.com/wdCSSCz",
+         "instagram_url": "https://www.instagram.com/rodrigovieira.1/",
+         "followers": [
+           {
+             "user_uuid": "46b83c9e-bd85-4d54-8576-c91071050aad"
+           },
+           {
+             "user_uuid": "77e86b01-d575-4119-8385-5738c3e9b908"
+           }
+         ]
+       },
+       {
+         "id": 2,
+         "user_uuid": "46b83c9e-bd85-4d54-8576-c91071050aad",
+         "username": "Bobby's Burgers",
+         "handle": "bobbyburgers",
+         "bio": "If burgers are your thing, then look no further!",
+         "link": "https://www.bobbyburgers.com/",
+         "img": "https://imgur.com/UHykNhu",
+         "instagram_url": "https://www.instagram.com/bobbyburger/",
+         "followers": [
+           {
+             "user_uuid": "000ba6ff-7472-4fe0-8165-9ae468accb07"
+           }
+         ]
+       },
+        {
+         "id": 3,
+         "user_uuid": "77e86b01-d575-4119-8385-5738c3e9b908",
+         "username": "Ani Talli",
+         "handle": "truthsaver",
+         "bio": "Just a person trying do their best",
+         "link": "",
+         "img": "https://imgur.com/nHGHIoT",
+         "instagram_url": "https://www.instagram.com/anitalli/",
+         "followers": [
+           {
+             "user_uuid": "000ba6ff-7472-4fe0-8165-9ae468accb07"
+           }
+         ]
+       },
+    ],
+    "threads": [
+      {
+         "id": 0,
+         "timestamp": "Thu Jul 13 2023 09:05:38 GMT-0300 (Horário Padrão de Brasília)",
+         "thread_from": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+         "thread_to": null,
+         "reply_to": null,
+         "text": "Hello world (of threads)",
+         "likes": [
+           {
+             "user_uuid": "77e86b01-d575-4119-8385-5738c3e9b908"
+           },
+           {
+             "user_uuid": "46b83c9e-bd85-4d54-8576-c91071050aad"
+           }
+         ] 
+      },
+     {
+      "id": 2,
+      "timestamp": "Thu Jul 13 2023 10:30:38 GMT-0300 (Horário Padrão de Brasília)",
+      "thread_from": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another one!",
+      "likes": [] 
+   }, 
+   {
+    "id": 3,
+    "timestamp": "Thu Jul 13 2023 19:30:38 GMT-0300 (Horário Padrão de Brasília)",
+    "thread_from": "46b83c9e-bd85-4d54-8576-c91071050aad",
+    "thread_to": null,
+    "reply_to": null,
+    "text": "Excited to have launched Bobbys Burger!",
+    "likes": [] 
+   },
+   {
+    "id": 4,
+    "timestamp": "Thu Jul 13 2023 19:50:38 GMT-0300 (Horário Padrão de Brasília)",
+    "thread_from": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+    "thread_to": "46b83c9e-bd85-4d54-8576-c91071050aad",
+    "reply_to": 3,
+    "text": "Congrats!",
+    "likes": [
+      {
+        "user_uuid": "000ba6ff-7472-4fe0-8165-9ae468accb07"
+      }
+    ] 
+   },
+   {
+    "id": 5,
+    "timestamp": "Thu Jul 13 2023 20:50:38 GMT-0300 (Horário Padrão de Brasília)",
+    "thread_from": "46b83c9e-bd85-4d54-8576-c91071050aad",
+    "thread_to": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+    "reply_to": 0,
+    "text": "hiya!",
+    "likes": [] 
+   },
+   {
+    "timestamp": "Thu Jul 13 2023 20:50:38 GMT-0300 (Horário Padrão de Brasília)",
+    "thread_from": "46b83c9e-bd85-4d54-8576-c91071050aad",
+    "thread_to": "000ba6ff-7472-4fe0-8165-9ae468accb07",
+    "reply_to": null,
+    "text": "hello too",
+    "likes": [] 
+    "id": 6
+   }
+  ]
+}
