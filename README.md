@@ -2,6 +2,8 @@
 
 https://www.youtube.com/watch?v=J7HMa48mU3E
 
+https://raw.githubusercontent.com/RodrigoMvs123/2-HOURS-to-build-a-working-Threads-App-Super-simple-/main/README.md
+
 React App ( react-threads )
 Visual Studio Code
 Terminal
