@@ -39,12 +39,14 @@ package.json
 }
 ```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 db.json
-
+```
+```json
 db.json 
 {
     "users":[
@@ -152,17 +154,21 @@ db.json
    }
   ]
 }
+```
 
-https://www.uuidgenerator.net/ 
-https://imgur.com/ 
-https://imgur.com/gallery/z4CwbYH 
-https://imgur.com/wdCSSCz 
-https://app.tabnine.com/signin 
+- https://www.uuidgenerator.net/ 
+- https://imgur.com/ 
+- https://imgur.com/gallery/z4CwbYH 
+- https://imgur.com/wdCSSCz 
+- https://app.tabnine.com/signin 
 
-Visual Studio Code
+#### Visual Studio Code
 Terminal 
+```
 npx json-server - -watch db.json
-Resources
+```
+```
+> Resources
 http://localhost:3000/posts 
 [
   {
@@ -185,19 +191,26 @@ http://localhost:3000/profile
 }
 Home
 http://localhost:3000 
+```
 
-Visual Studio Code
+#### Visual Studio Code
+Terminal
+```
 npm run start
-localhost:3001
 
-Visual Studio Code
+> localhost:3001
+```
+
+### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
-
+```css
 body {
     margin: 0;
     padding: 0;
@@ -218,15 +231,19 @@ body {
     background-color: rgb(38, 38, 38);
     padding: 20px;
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Feed.js
+```
 
 Feed.js
+```js
 const Feed() => {
     return (
       <div className="feed">
@@ -236,15 +253,19 @@ const Feed() => {
   }
   
 export default Feed
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Header.js
+```
 
 Header.js
+```js
 const Header() => {
     return (
       <header>
@@ -253,15 +274,19 @@ const Header() => {
   }
   
 export default Header
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Nav.js
+```
 
 Nav.js
+```js
 const Nav() => {
     return (
       <nav>
@@ -270,15 +295,19 @@ const Nav() => {
   }
   
 export default Nav
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```js
 const PopUp = () => {
     return (
       <div className="popup">
@@ -287,15 +316,19 @@ const PopUp = () => {
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Thread.js
+```
 
 Thread.js
+```js
 const Thread = () => {
     return (
       <article className="feed-card">
@@ -304,15 +337,19 @@ const Thread = () => {
   }
   
 export default Thread
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 PopUpThread.js
+```
 
 PopUpThread.js
+```js
 const PopUpThread = () => {
     return (
       <article className="feed-card">
@@ -321,15 +358,19 @@ const PopUpThread = () => {
   }
   
 export default PopUpThread
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 ThreadInput.js
+```
 
 ThreadInput.js
+```js
 const ThreadInput = () => {
     return (
         <>
@@ -341,14 +382,18 @@ const ThreadInput = () => {
   }
   
 export default ThreadInput
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 App.js
+```
 
 App.js
+```js
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Feed from "./components/Feed"
@@ -366,15 +411,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 ThreadInput.js
+```
 
 ThreadInput.js
+```js
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -388,16 +437,19 @@ const PopUp = () => {
   }
   
 export default PopUp
-  
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Feed.js
+```
 
 Feed.js
+```js
 import Thread from "./Thread"
 
 const Feed() => {
@@ -409,15 +461,19 @@ const Feed() => {
   }
   
 export default Feed
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Nav.js
+```
 
 Nav.js
+```js
 const Nav() => {
     return (
       <nav>
@@ -428,17 +484,21 @@ const Nav() => {
   }
   
 export default Nav
-  
-https://iconmonstr.com/globe-4-svg/ 
-https://iconmonstr.com/instagram-11-svg/ 
+```
 
-Visual Studio Code
+- https://iconmonstr.com/globe-4-svg/ 
+- https://iconmonstr.com/instagram-11-svg/ 
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -469,15 +529,19 @@ nav {
     justify-content: space-between;
     padding: 20px 0;
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Header.js
+```
 
 Header.js
+```js
 const Header() => {
     return (
       <header>
@@ -508,17 +572,20 @@ const Header() => {
   }
   
 export default Header
-  
-https://symbl.cc/en/2022/ 
-•
+```
 
-Visual Studio Code
+- https://symbl.cc/en/2022/ 
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -615,15 +682,19 @@ button.primary {
 .button-container button.current {
     border-bottom:rgb(250, 250, 250) solid 2px;
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Thread.js
+```
 
 Threads.js
+```js
 const Thread = () => {
     return (
       <article className="feed-card">
@@ -651,19 +722,23 @@ const Thread = () => {
   }
   
 export default Thread
-  
-https://iconmonstr.com/heart-lined-svg/ 
-https://iconmonstr.com/speech-bubble-10-svg/ 
-https://iconmonstr.com/retweet-1-svg/ 
-https://iconmonstr.com/paper-plane-2-svg/ 
+```
 
-Visual Studio Code
+- https://iconmonstr.com/heart-lined-svg/ 
+- https://iconmonstr.com/speech-bubble-10-svg/ 
+- https://iconmonstr.com/retweet-1-svg/ 
+- https://iconmonstr.com/paper-plane-2-svg/ 
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
+```css 
 body {
     margin: 0;
     padding: 0;
@@ -786,16 +861,19 @@ button.primary {
 .fead-card .img-container img {
     height: 110%;
 }
+```
 
-
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 Feed.js
+```
 
 Feed.js
+```js
 import Thread from "./Thread"
 
 const Feed() => {
@@ -807,15 +885,18 @@ const Feed() => {
   }
   
 export default Feed
+```
 
-
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -943,6 +1024,7 @@ button.primary {
     height: 400px;
     overflow-x: scroll;
 }
+```
 
 Visual Studio Code
 EXPLORER
