@@ -26,10 +26,8 @@ db.json
 Terminal 
 ```
 npm i json server
-```
 
-```
-https://www.npmjs.com/package/json-server 
+> https://www.npmjs.com/package/json-server 
 package.json
 {
   "dependencies": {
@@ -46,8 +44,9 @@ OPEN EDITORS
 src
 db.json
 ```
-```json
+
 db.json 
+```json
 {
     "users":[
        {
@@ -166,8 +165,7 @@ db.json
 Terminal 
 ```
 npx json-server - -watch db.json
-```
-```
+
 > Resources
 http://localhost:3000/posts 
 [
