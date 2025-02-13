@@ -1,25 +1,34 @@
-"# 2HOURS to build a working Threads App! (Super Simple!)"
+## 2HOURS to build a working Threads App! (Super Simple!)
 
-https://www.youtube.com/watch?v=J7HMa48mU3E
+- https://www.youtube.com/watch?v=J7HMa48mU3E
 
-https://raw.githubusercontent.com/RodrigoMvs123/2-HOURS-to-build-a-working-Threads-App-Super-simple-/main/README.md
+- https://raw.githubusercontent.com/RodrigoMvs123/2-HOURS-to-build-a-working-Threads-App-Super-simple-/main/README.md
 
-https://github.com/RodrigoMvs123/2-HOURS-to-build-a-working-Threads-App-Super-simple-/blame/main/README.md
+- https://github.com/RodrigoMvs123/2-HOURS-to-build-a-working-Threads-App-Super-simple-/blame/main/README.md
 
 React App ( react-threads )
-Visual Studio Code
-Terminal
-npx create-react-app react-threads
 
-Visual Studio Code
+#### Visual Studio Code
+Terminal
+```
+npx create-react-app react-threads
+```
+
+#### Visual Studio Code
+```
 Explorer 
 OPEN EDITORS
 src
 db.json
+```
 
-Visual Studio Code
+#### Visual Studio Code
 Terminal 
+```
 npm i json server
+```
+
+```
 https://www.npmjs.com/package/json-server 
 package.json
 {
@@ -28,6 +37,7 @@ package.json
     "server": "^1.0.38"
   }
 }
+```
 
 Visual Studio Code
 EXPLORER
