@@ -2818,14 +2818,17 @@ const App() => {
 export default App
 ```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Feed.js
+```
 
 Feed.js
+```javascript
 import Thread from "./Thread"
 
 const Feed = ({ user, setOpenPopUp, filteredThreads, getThreads, setInteractingThread }) => {
@@ -2845,15 +2848,19 @@ const Feed = ({ user, setOpenPopUp, filteredThreads, getThreads, setInteractingT
   }
   
 export default Feed
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Threads.js
+```
 
 Thread.js
+```javascript
 import { useState, useEffect } from "react"
 import moment from 'moment'
 
@@ -2917,14 +2924,18 @@ const Thread = ({ user, setOpenPopUp, filteredThread, getTreads, setInteractingT
   }
   
 export default Thread
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -3030,15 +3041,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```javascript
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -3059,15 +3074,19 @@ const PopUp = ({ user, setOpenPopUp, PopUpFeedThread }) => {
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUpThread.js
+```
 
 PopUpThread.js
+```javascript
 import moment from "moment";
 
 const PopUpThread = ({ user, popUpFeedThread }) => {
@@ -3092,14 +3111,18 @@ const PopUpThread = ({ user, popUpFeedThread }) => {
   }
   
 export default PopUpThread
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 db.json
+```
 
 db.json
+```json
 {
     "users":[
        {
@@ -3219,15 +3242,19 @@ db.json
    }
   ]
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUpThread.js
+```
 
 PopUpThread.js
+```javascript
 import moment from "moment";
 import { useState, useEffect } from "react"
 
@@ -3270,15 +3297,19 @@ const PopUpThread = ({ popUpFeedThread }) => {
   }
   
 export default PopUpThread
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```javascript
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -3298,14 +3329,18 @@ const PopUp = ({ setOpenPopUp, PopUpFeedThread }) => {
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -3437,15 +3472,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```javascript
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -3469,15 +3508,19 @@ const PopUp = ({ user, setOpenPopUp, PopUpFeedThread, text, setText }) => {
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 ThreadInput.js
+```
 
 ThreadInput.js
+```javascript
 const ThreadInput = ({ user, text, setText }) => {
     return (
         <>
@@ -3489,14 +3532,18 @@ const ThreadInput = ({ user, text, setText }) => {
   }
   
 export default ThreadInput
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -3629,15 +3676,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```javascript
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -3662,15 +3713,19 @@ const PopUp = ({ user, setOpenPopUp, PopUpFeedThread, text, setText, postThread 
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 ThreadInput.js
+```
 
 ThreadInput.js
+```javascript
 const ThreadInput = ({ user, text, setText, postThread }) => {
     return (
         <>
@@ -3682,14 +3737,18 @@ const ThreadInput = ({ user, text, setText, postThread }) => {
   }
   
 export default ThreadInput
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -3827,14 +3886,18 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 db.json
+```
 
 db.json
+```json
 {
     "users":[
        {
@@ -3963,14 +4026,18 @@ db.json
    }
   ]
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -4110,15 +4177,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Thread.js
+```
 
 Thread.js
+```javascript
 import { useState, useEffect } from "react"
 import moment from 'moment'
 
@@ -4197,14 +4268,18 @@ const Thread = ({ user, setOpenPopUp, filteredThread, getTreads, setInteractingT
   }
   
 export default Thread
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js 
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -4350,14 +4425,18 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 db.json
+```
 
 db.json
+```json
 {
     "users":[
        {
@@ -4477,6 +4556,7 @@ db.json
    }
   ]
 }
+```
 
 
 
