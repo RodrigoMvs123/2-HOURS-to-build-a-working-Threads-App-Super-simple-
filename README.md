@@ -1024,14 +1024,17 @@ button.primary {
 }
 ```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 components
 ThreadInput.js
+```
 
 ThreadInput.js
+```javascript
 const ThreadInput = () => {
     return (
         <>
@@ -1043,13 +1046,18 @@ const ThreadInput = () => {
   }
   
 export default ThreadInput
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 EXPLORER
 OPEN EDITORS
 src
 index.css
+```
 
 index.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -1192,15 +1200,19 @@ input {
 input:focus {
     outline: none;
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITORS
 src
 components
 PopUp.js
+```
 
 PopUp.js
+```javascript
 import PopUpThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
@@ -1214,14 +1226,18 @@ const PopUp = () => {
   }
   
 export default PopUp
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 index.css
+```
 
 index.css
+```css
 body {
     margin: 0;
     padding: 0;
@@ -1381,14 +1397,18 @@ input:focus {
     rgba(0, 0, 0, 0.17) 0 12px 13px,
     rgba(0, 0, 0, 0.9) 0 -3px 5px
 }
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -1428,16 +1448,19 @@ const App() => {
 }
 
 export default App
+```
 
-
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Nav.js
+```
 
 Nav.js
+```javascript
 const Nav({ url }) => {
     return (
       <nav>
@@ -1448,14 +1471,18 @@ const Nav({ url }) => {
   }
   
 export default Nav
-  
-Visual Studio Code
+```
+
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -1497,15 +1524,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Header.js
+```
 
 Header.js
+```javascript
 const Header({ user }) => {
     return (
       <header>
@@ -1536,14 +1567,18 @@ const Header({ user }) => {
   }
   
 export default Header
+```
   
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -1605,15 +1640,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Header.js
+```
 
 Header.js
+```javascript
 const Header({ user, viewThreadsFeed, setViewThreadsFeed }) => {
     return (
       <header>
@@ -1644,15 +1683,18 @@ const Header({ user, viewThreadsFeed, setViewThreadsFeed }) => {
   }
   
 export default Header
+```
   
-  
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 App.js
+```
 
 App.js
+```javascript
 import { useState, useEffect } from "react"  
 import Nav from "./components/Nav"
 import Header from "./components/Header"
@@ -1729,15 +1771,19 @@ const App() => {
 }
 
 export default App
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components 
 Feed.js
+```
 
 Feed.js
+```javascript
 import Thread from "./Thread"
 
 const Feed = ({ user, filteredThreads }) => {
@@ -1750,15 +1796,19 @@ const Feed = ({ user, filteredThreads }) => {
   }
   
 export default Feed
+```
 
-Visual Studio Code
+#### Visual Studio Code
+```
 Explorer
 OPEN EDITOR
 src
 components
 Thread.js
+```
 
 Thread.js
+```javascript
 const Thread = ({ user, filteredThread }) => {
     return (
       <article className="feed-card">
@@ -1786,10 +1836,13 @@ const Thread = ({ user, filteredThread }) => {
   }
   
 export default Thread
-  
-Visual Studio Code
+```
+ 
+#### Visual Studio Code
 Terminal 
+```
 npm i moment 
+```
 
 Visual Studio Code
 Explorer
